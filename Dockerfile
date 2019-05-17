@@ -2,7 +2,7 @@ FROM google/cloud-sdk:alpine
 
 # Note: Latest version of helm may be found at:
 # https://github.com/kubernetes/helm/releases
-ENV HELM_VERSION="v2.14.0"
+ENV HELM_VERSION="v2.13.1"
 
 # Note: Latest version of the provider may be found at:
 # https://github.com/terraform-providers/terraform-provider-helm/releases
